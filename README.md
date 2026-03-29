@@ -1,78 +1,64 @@
-# 📰 Fake News Detection System
+# 🗳️ Online Voting System
 
-## 📌 Project Overview
-
-This project is a front-end implementation of a Fake News Detection System developed based on a research study. The system demonstrates how machine learning models can be used to classify news articles as Real or Fake.
-
-The objective of this project is to design a research-based web interface that replicates the output screens and system flow presented in the selected research paper.
+## 📌 Project Description
+The **Online Voting System** is a web-based application that allows users to register, log in, and cast their votes digitally. This system aims to simplify the voting process while maintaining basic security and usability.
 
 ---
 
-## 🚀 Key Features
-
-- User-friendly Home Page
-- News Input / Evaluation Page
-- Text-based News Analysis Form
-- Result Page showing:
-  - Fake News Detection
-  - Real News Confirmation
-  - Confidence Score Display
-- Informative About Page explaining system design
-- Clean and structured layout using External CSS
+## 🎯 Objectives
+- To provide an easy-to-use voting platform  
+- To allow users to register and log in securely  
+- To enable users to vote for their preferred group/candidate  
+- To display voting status (Voted / Not Voted)  
 
 ---
 
-## 🛠 Technologies Used
+## 🧰 Technologies Used
+- **HTML** – Structure of web pages  
+- **CSS** – Styling and layout  
 
-- HTML5
-- CSS3 (External CSS File)
-- Visual Studio Code
-- GitHub
 
----
 
-## 🎯 Project Objective
+## 📂 Project Structure
+Online-Voting-System/ │── login.html │── register.html │── dashboard.html │── README.md
 
-The main objective of this project is to implement a web-based interface inspired by a research paper on Fake News Detection using Machine Learning.
-
-The system is designed to demonstrate how digital platforms can help detect misinformation and prevent the spread of false news.
-
-This implementation focuses only on the front-end representation of the research system.
 
 ---
 
-## 🌍 Domain
+## 🔐 Features
 
-Artificial Intelligence / Natural Language Processing / Cyber Security
+### 1️⃣ Login Page
+- User enters mobile number and password  
+- Select role (Voter/Admin)  
+- Redirect to dashboard after login  
+
+### 2️⃣ Registration Page
+- User details: Name, Mobile, Password  
+- Address and Image upload  
+- Role selection (Voter/Admin)  
+
+### 3️⃣ Dashboard
+- Displays user information  
+- Shows voting options (Groups/Candidates)  
+- Vote button to cast vote  
+- Status updates after voting  
+---
+
+## 📸 Screenshots
+- Login Page  
+- Registration Page  
+- Dashboard (Before Voting)    
 
 ---
 
-## 📄 Research Paper Reference
-
-Fake News Detection Using Machine Learning
-
-(The interface design is inspired by the output screens presented in the selected research paper.)
+## 👩‍💻 Developed by
+**Prachi Bhaskar Pillay**  
+B.Tech (2st Year) – AIDS  -A14
 
 ---
 
-## 📂 Pages Included
+## 📜 Conclusion
+This project demonstrates the basic working of an online voting interface. It can be further enhanced by integrating backend technologies and database systems to make it fully functional and secure.
 
-- Home Page (index.html)
-- News Evaluation Page (evaluate.html)
-- Result Page (result.html)
-- About Page (about.html)
-
----
-
-## 📷 Screenshots
-
-Screenshots of all developed pages are included in the repository.
-
----
-
-## 👩‍💻 Developed By
-
-PRACHI PILLAY 
-AIDS-A-14 
 
 ---
