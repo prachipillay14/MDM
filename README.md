@@ -16,7 +16,7 @@ This repository contains multiple assignments related to web development and pra
 
 * HTML
 * CSS
-* Bootstrap
+* JS
 
 ---
 
