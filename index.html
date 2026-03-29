@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Swiggy Clone Advanced</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>Swiggy Clone 🍽️</header>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <h3>Search</h3>
+        <input type="text" id="search" placeholder="Search food">
+
+        <h3>Category</h3>
+        <select id="category">
+            <option value="all">All</option>
+            <option value="pizza">Pizza</option>
+            <option value="burger">Burger</option>
+            <option value="drink">Drinks</option>
+        </select>
+
+        <h3>Rating</h3>
+        <select id="rating">
+            <option value="all">All</option>
+            <option value="4">4★ & above</option>
+            <option value="3">3★ & above</option>
+        </select>
+
+        <h3>Sort by Delivery Time</h3>
+        <select id="sort">
+            <option value="default">Default</option>
+            <option value="fast">Fast Delivery</option>
+            <option value="slow">Slow Delivery</option>
+        </select>
+
+    </div>
+
+    <!-- Food -->
+    <div class="foods" id="foodContainer"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
